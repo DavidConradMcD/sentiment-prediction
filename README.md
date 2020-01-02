@@ -17,9 +17,9 @@ The S&P Global 1200 index is comprised of seven indices with stocks from 29 repr
 
 The index captures approximately 70% of global market capitalization, making it a great source for which to compare global news headlines. 
 
+![Dataset layout](https://i.pinimg.com/originals/39/43/dd/3943ddb09b74f4ec4b6cc0564b1e4715.png)
 
 
--picture here
 
 
 The Reddit news dataset is a collection of the top news headlines from around the world from 2008-2016. There are 25 top news headlines for each day (only counting weekdays since we are comparing it with S&P data) which provides a total of 41,975 news headlines. 
