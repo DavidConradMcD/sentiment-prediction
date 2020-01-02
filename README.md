@@ -55,7 +55,7 @@ Ultimately, we chose Vader because it offers a fairly robust sentiment analyzer 
 Merging world bank data with daily sentiment scores for global news headlines
 
 
--table goes here
+![](https://i.pinimg.com/originals/ee/09/4f/ee094f68a54be19b819a9a3c609aa596.png)
 
 
 
@@ -79,7 +79,7 @@ Appendix B shows our process for improving the accuracy of the sentiment score i
 ## Methodology
 
 
-- picture goes here
+![](https://i.pinimg.com/originals/f4/11/54/f41154519c0ed1d3a74186983efd7368.png)
 
 
 
@@ -91,7 +91,7 @@ y = β0 + β1 x1+ ε
 closing price = β0 + β1sentiment score+ ε
 
 
--picture 
+![](https://i.pinimg.com/originals/b3/c2/21/b3c22192dae6b6ba95fd2399684990bb.png)
 
 
 
@@ -102,8 +102,7 @@ log(y) = β0 + β1 x1+ ε
 log(closing price) = β0 + β1sentiment score + ε
 
 
--picture 
-
+![](https://i.pinimg.com/originals/bd/5b/3c/bd5b3cd9e97aac1cf4fd3c4a3444455c.png)
 
 
 
@@ -116,7 +115,7 @@ The log linear model shows more consistent results therefore it is used in the r
 
 
 
--picture 
+![](https://i.pinimg.com/originals/02/80/f7/0280f7c80db180f4bb30db7da7a04676.png)
 
 
 
@@ -128,7 +127,7 @@ log(y) = β0 + β1 x1+ β2 x2 + β3 x3 + ε
 log(closing price) = β0 + β1US Unemployment Rate + β2 US CPI  + β3EU CPI + ε
 
 
--picture 
+![](https://i.pinimg.com/originals/98/24/ae/9824ae2da52bfc1db7f91b08f4966a47.png)
 
 
 
@@ -141,7 +140,7 @@ log(CP) = β0 + β1sentiment score + β2US Unemployment Rate + β3 US CPI + β4 
 
 
 
--picture 
+![](https://i.pinimg.com/originals/b8/3f/a7/b83fa7f203680d5a81c89e3075259df2.png)
 
 
 
@@ -154,7 +153,7 @@ log(closing price) = β0 + β1sentiment score + β2US CPI + β3 EU CPI + ε
 
 
 
--picture 
+![](https://i.pinimg.com/originals/ab/f8/08/abf80854799e73beab1a4310ed2e040d.png)
 
 
 
@@ -188,4 +187,11 @@ Moreover, the sentiment indicators were limited to news articles only, more data
 [4] Kalyanaraman, V., Kazi, S., Tondulkar, R., & Oswal, S. (2014, September). Sentiment Analysis on News Articles for Stocks.
 
 [5] Wooldridge, J. M. (2015). Introductory econometrics: a modern approach (6th ed.). Boston, MA: Cengage Learning.
+
+
+## Appendix A
+
+
+
+## Appendix B
 
