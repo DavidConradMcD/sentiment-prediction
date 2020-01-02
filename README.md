@@ -40,7 +40,7 @@ Applying the Vader algorithm to a string of text yields the following output:
 
 
 
-- picture here
+![](https://i.pinimg.com/originals/d0/96/23/d096231b44f8fc4ce63e4540c7dcd77d.png)
 
 
 
