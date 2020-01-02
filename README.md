@@ -191,7 +191,25 @@ Moreover, the sentiment indicators were limited to news articles only, more data
 
 ## Appendix A
 
+![](https://i.pinimg.com/originals/3f/18/b9/3f18b9ea2e37a6849c1deed8c98afc52.png)
 
 
 ## Appendix B
+
+![](https://i.pinimg.com/originals/0e/c8/56/0ec856e40d6caa1ed32fa926bac736c3.png)
+
+Moving from Vader Lexicon to the Weighted average shows an decrease in upward/downward bias. For the Vader lexicon, sentiments look to mainly negative whereas with the finance-specific Lexicon, sentiments look to be only positive. Combining the two leads to a slightly better approximation, but still with few negative results. Applying a weighted average based on country name/size looks to show the best result for each day’s sentiment.
+
+
+![](https://i.pinimg.com/originals/25/26/65/252665f06e61033dab01e1fbe34dc024.png)
+
+Applying a 100-day simple moving average to the sentiment score shows a similar resemblance to that of daily closing prices of the S&P 1200.
+
+
+![](https://i.pinimg.com/originals/42/45/12/424512c6a1e39b0825cca5d093cc3504.png)
+
+Furthermore, applying a one year rolling average to both the S&P 1200 Closing price and the daily sentiment score show that the sentiment score looks to follow the general trend of the S&P 1200 but with much more volatility. 
+
+This result helps to solidify the notion that there is some relationship between news sentiment and stock markets. Moving forward, we would look to use a correlation matrix for each combination of sentiment SMA’s to determine the best fit with the S&P 1200 and use the resulting metric in a predictive model trained on prior sentiments and closing prices. Clearly, a sentiment score can only predict a relatively small portion of volatility in a global market index given the massive scale of factors at play. The dataset we use in constructing this score is limited and does not contain a significant portion of stock-market related news. Using a dataset of relevant headlines exclusively should provide a better result given that it would be better suited for this type of classification problem. 
+
 
